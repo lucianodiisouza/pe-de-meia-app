@@ -1,12 +1,17 @@
 import {TamaguiProvider, Text, View} from 'tamagui'
-import {config} from "@tamagui/config/v3";
+import appConfig from "./tamagui/tamagui.config";
+import {SafeAreaView} from "react-native";
+
 
 export default function App() {
   return (
-      <TamaguiProvider config={config}>
-        <View>
-          <Text>Testing Tamagui</Text>
-        </View>
+      <TamaguiProvider config={appConfig}>
+        <SafeAreaView>
+          <View backgroundColor="blue-100" width="$4" h="$10">
+            <Text>Testing Tamagui</Text>
+          </View>
+        </SafeAreaView>
+
       </TamaguiProvider>
   );
 }
