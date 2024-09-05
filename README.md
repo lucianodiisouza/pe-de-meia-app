@@ -1,0 +1,2 @@
+- [ ] tamagui
+- [ ] react native navigator
