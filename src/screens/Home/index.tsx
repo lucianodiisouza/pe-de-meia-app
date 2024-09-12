@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Image, Text, View, YStack } from "tamagui";
+import { Button, Image, Text, YStack } from "tamagui";
 
 import logo from "../../assets/logo.png";
 

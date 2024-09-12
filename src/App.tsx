@@ -1,3 +1,4 @@
+import React from "react";
 import { TamaguiProvider } from "tamagui";
 
 import { SafeAreaView } from "react-native";
