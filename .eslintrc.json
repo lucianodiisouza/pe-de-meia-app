@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "extends": "@react-native-community",
+  "plugins": ["simple-import-sort", "import"],
+  "rules": {
+    "react-hooks/exhaustive-deps": 1,
+    "no-unused-vars": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "react/jsx-sort-props": [
+      "error",
+      {
+        "callbacksLast": true,
+        "shorthandFirst": true,
+        "shorthandLast": false,
+        "ignoreCase": true,
+        "noSortAlphabetically": false,
+        "reservedFirst": true
+      }
+    ]
+  }
+}
